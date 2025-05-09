@@ -1,0 +1,5 @@
+Batman,500
+Iron Man,333
+James Bond,333
+Harry Potter,250
+
