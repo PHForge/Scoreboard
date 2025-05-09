@@ -1,3 +1,13 @@
+/*
+ * Scoreboard - A retro-style scoreboard management program
+ * Copyright (c) 2025 PHForge
+ *
+ * This program allows users to manage player scores, display rankings with tie handling,
+ * and save/load data to/from a file, with a 1980s arcade-inspired interface.
+ *
+ * Licensed under the MIT License. See the LICENSE file in the repository for details.
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h> // Added for isspace
