@@ -23,10 +23,10 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 git clone https://github.com/ton-username/Scoreboard.git
 
 2. Compile the game:
-gcc -o guess main.c
+gcc -o scoreboard main.c
 
 3. Run the game:
-./guess
+./scoreboard
 
 # Technologies
 - Language: C
