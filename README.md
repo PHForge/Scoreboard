@@ -2,7 +2,10 @@
 
 A retro-style scoreboard management program written in C, inspired by 1980s arcade games. This project allows users to add players, manage scores, display rankings with tie handling, and save/load data to/from a file.
 
-## Features
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Language](https://img.shields.io/badge/language-C-green.svg)
+
+# Features
 - **Player Management**: Add players with names (up to 48 characters) and non-negative scores.
 - **Ranking System**: Displays rankings with support for ties (ex-aequo) and proper rank progression.
 - **File I/O**: Save and load scores to/from `scores.txt` for persistent data.
@@ -10,29 +13,34 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 - **User-Friendly Menu**: Options to add players, display the scoreboard, view credits, or quit.
 - **Input Validation**: Robust handling of invalid inputs (empty names, commas, negative scores, etc.).
 
-## Prerequisites
+# Prerequisites
 - A C compiler (e.g., GCC).
 - Code::Blocks or any IDE/terminal that supports C compilation.
 - Git (to clone the repository).
 
-### Installation
-Clone the repository:
-   ```bash
-   git clone https://github.com/ton-username/Scoreboard.git
+# Installation
+1. Clone the repository:
+git clone https://github.com/ton-username/Scoreboard.git
 
-#### Technologies
-Language: C
-Libraries: Standard C libraries (stdio.h, string.h, ctype.h)
-Tools: Code::Blocks, GCC
+2. Compile the game:
+gcc -o guess main.c
 
-##### License
+3. Run the game:
+./guess
+
+# Technologies
+- Language: C
+- Libraries: Standard C libraries (stdio.h, string.h, ctype.h)
+- Tools: Code::Blocks, GCC
+
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-###### Crédits
+# Crédits
 Developed by PHForge. Special thanks to my wife and son for their patience and love.
 
-
-####### Example Output
+# Example Output
+```bash
 
   _____                    _                         _
  / ____|                  | |                       | |
