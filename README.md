@@ -55,7 +55,7 @@ Developed by PHForge. Special thanks to my wife and son for their patience and l
 
 ## Example Output
 
-```
+```bash
 
   _____                    _                         _
  / ____|                  | |                       | |
