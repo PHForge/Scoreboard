@@ -30,18 +30,18 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 ## Installation
 
 1. **Clone the repository**:
-	```	
+	```bash	
 	git clone https://github.com/ton-username/Scoreboard.git
 	cd Scoreboard
 	```
 
 2. **Compile the game**:
-	```
+	```bash
 	gcc -o scoreboard main.c
 	```
 
 3. **Run the game**:
-	```
+	```bash
 	./scoreboard.exe
 	```
 
@@ -55,7 +55,7 @@ Developed by PHForge. Special thanks to my wife and son for their patience and l
 
 ## Example Output
 
-```bash
+```c
 
   _____                    _                         _
  / ____|                  | |                       | |
