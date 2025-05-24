@@ -21,13 +21,13 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 - **Tools**: Git, Code::Blocks
 - **Key Libraries**: Standard C libraries (stdio.h, string.h, ctype.h)
 
-### Prerequisites
+## Prerequisites
 
 - A C compiler (e.g., GCC).
 - Code::Blocks or any IDE/terminal that supports C compilation.
 - Git (to clone the repository).
 
-### Installation
+## Installation
 
 1. **Clone the repository**:
 	```	
@@ -45,15 +45,15 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 	./scoreboard.exe
 	```
 
-### License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Crédits
+## Crédits
 
 Developed by PHForge. Special thanks to my wife and son for their patience and love.
 
-### Example Output
+## Example Output
 
 ```
 
