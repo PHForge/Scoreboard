@@ -1,33 +1,43 @@
 # Scoreboard
 
-A retro-style scoreboard management program written in C, inspired by 1980s arcade games. This project allows users to add players, manage scores, display rankings with tie handling, and save/load data to/from a file.
+A retro-style scoreboard management program crafted in C, inspired by 1980s arcade games. This project enables users to manage players, track scores with tie-aware rankings, and persist data via file I/O, showcasing modular design, robust input validation, and cross-platform compatibility for a seamless user experience.
+
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Language](https://img.shields.io/badge/language-C-green.svg)
 
-## Features
+<br>
 
-- **Player Management**: Add players with names (up to 48 characters) and non-negative scores.
-- **Ranking System**: Displays rankings with support for ties (ex-aequo) and proper rank progression.
-- **File I/O**: Save and load scores to/from `scores.txt` for persistent data.
-- **Retro Interface**: ASCII art banner at startup for a nostalgic 1980s arcade feel.
-- **User-Friendly Menu**: Options to add players, display the scoreboard, view credits, or quit.
-- **Input Validation**: Robust handling of invalid inputs (empty names, commas, negative scores, etc.).
+## Features 📋
 
-## Tech Stack
+- **Player Management**: Add players with names (up to 48 characters) and non-negative scores, with validation to prevent invalid entries.
+- **Ranking System**: Displays sorted rankings with tie handling (ex-aequo) using a custom sorting algorithm for accurate rank progression.
+- **File I/O**: Persists scores to `scores.txt` using robust file operations, ensuring data integrity across sessions.
+- **Retro Interface**: Features an ASCII art banner at startup, optimized for terminal display with a nostalgic 1980s arcade aesthetic.
+- **User-Friendly Menu**: Modular menu system for adding players, viewing the scoreboard, accessing credits, or exiting the program.
+- **Input Validation**: Comprehensive checks for empty names, commas, negative scores, and other edge cases to ensure stability.
 
-- **Language**: C
-- **Compiler**: GCC (via MinGW or Code::Blocks)
-- **Tools**: Git, Code::Blocks
-- **Key Libraries**: Standard C libraries (stdio.h, string.h, ctype.h)
 
-## Prerequisites
+<br>
 
-- A C compiler (e.g., GCC).
-- Code::Blocks or any IDE/terminal that supports C compilation.
-- Git (to clone the repository).
+## System Requirements ⚙️
 
-## Installation
+The following components are required to build, run, or contribute to this project:
+
+| Component          | Requirement                              | Notes                                      |
+|--------------------|------------------------------------------|--------------------------------------------|
+| Language | C                                      | Core language used for the project         |
+| Compiler       | GCC                                      | Ensure GCC is installed (e.g., MinGW for Windows) |
+| Libraries      | Standard C Libraries (stdio.h, string.h, ctype.h) | Included with standard C installations      |
+| IDE/Editor     | Code::Blocks or any C-compatible IDE/terminal | Other IDEs like VS Code or CLion can be used |
+| Version Control | Git                                     | Required to clone the repository           |
+
+> [!TIP]
+> For optimal setup, install GCC via [MinGW](https://www.mingw-w64.org/) on Windows or use a package manager like `apt` or `brew` on Linux/macOS to install Git and GCC.
+
+<br>
+
+## Installation </>
 
 1. **Clone the repository**:
 	```bash	
@@ -36,26 +46,39 @@ A retro-style scoreboard management program written in C, inspired by 1980s arca
 	```
 
 2. **Compile the game**:
-	```bash
-	gcc -o scoreboard main.c
-	```
-
+	- Windows: Use MinGW and run:
+		```bash
+		gcc -o scoreboard main.c
+		```
+	- Linux/macOS: Ensure GCC is installed (`sudo apt install gcc` or `brew install gcc`) and run:
+		```bash
+		gcc -o scoreboard main.c
+		```
 3. **Run the game**:
 	```bash
-	./scoreboard.exe
+	./scoreboard
 	```
 
-## License
+<br>
+
+## License 🧾
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Crédits
+<br>
 
-Developed by PHForge. Special thanks to my wife and son for their patience and love.
+## Crédits ☕
 
-## Example Output
+> Developed by PHForge. 
+> Feel free to reach out via [GitHub](https://github.com/PHForge) for feedback or collaboration ideas!
 
-```bash
+> Special thanks ❤️ to my wife and son for their patience and love.
+
+<br>
+
+## Example Output 💻
+
+```c
 
   _____                    _                         _
  / ____|                  | |                       | |
