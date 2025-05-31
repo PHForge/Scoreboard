@@ -94,14 +94,7 @@ void add_player(struct Player players[], int *players_number) {
     // Increment player count (*players_number is dereferenced first, ++ has higher precedence)
     (*players_number)++;
 }
-/*
-void display_players(struct Player players[], int players_number) {
-    printf("\nScoreboard:\n\n");
-    for (int i = 0; i < players_number; i++) {
-        printf("%d. %s : %d\n", i + 1, players[i].name, players[i].score);
-    }
-}
-*/
+
 void display_players(struct Player players[], int players_number) {
     printf("\nScoreboard:\n\n");
     if (players_number == 0) {
